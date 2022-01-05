@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="header__icon"></a>
+            <h1>TENSOR SCHOOL</h1>
+            <h4>Мои одноклассники</h4>
+            <img src="img/add.png" class="add-button" alt="Добавить">
+        </header>
+        <section class="classmates">
+            <template id='classmatesTemplate'>
+                <article class="classmate">
+                    <a href="#" class="button button_delete"></a>
+                    <a href="#" class="button button_edit"></a>
+                    <img src="" alt="" class="classmate__image">
+                    <div class="classmate__info">
+                        <h3 class="classmate__name">
+                        </h3>
+                        <span class="classmate__course">
+                        </span>
+                        <span class="classmate__city">
+                        </span>
+                    </div>
+                  </article>
+            </template> 
+        </section>
+    </div>
+    <div id="studentPopup" class="overlay">
+        <div class="popup">
+           <h2>Введите информацию о студенте</h2>
+           <a class="popup__close" href="#">&times;</a>
+           <form class="student-form">
+              <div class="form-group">
+                 <label class="form-group__label" for="second_name">Фамилия: </label>
+                 <div class="form-group__container">
+                    <input name="second_name" class="form-group__input" type="text" minlength="2" required />
+                    <span class="form-group__input-error"></span>
+                 </div>
+              </div>
+              <div class="form-group">
+                 <label class="form-group__label" for="first_name">Имя: </label>
+                 <div class="form-group__container">
+                    <input name="first_name" class="form-group__input" type="text" minlength="2" required />
+                    <span class="form-group__input-error"></span>
+                 </div>
+              </div>
+              <div class="form-group">
+                <label class="form-group__label" for="patronymic">Отчество: </label>
+                <div class="form-group__container">
+                   <input name="patronymic" class="form-group__input" type="text" minlength="2" required />
+                   <span class="form-group__input-error"></span>
+                </div>
+             </div>
+             <div class="form-group">
+                <label class="form-group__label" for="city">Город: </label>
+                <div class="form-group__container">
+                   <input name="city" class="form-group__input" type="text" minlength="2" required />
+                   <span class="form-group__input-error"></span>
+                </div>
+             </div>
+             <div class="form-group">
+                <label class="form-group__label" for="university">Университет: </label>
+                <div class="form-group__container">
+                   <input name="university" class="form-group__input" type="text" minlength="2" required />
+                   <span class="form-group__input-error"></span>
+                </div>
+             </div>
+             <div class="form-group">
+                <label class="form-group__label" for="course">Курс: </label>
+                <div class="form-group__container">
+                   <input name="course" class="form-group__input" type="number" min="1" max="5" step="1" required />
+                   <span class="form-group__input-error"></span>
+                </div>
+             </div>
+             <div class="form-group">
+                <label class="form-group__label" for="phone">Телефон: </label>
+                <div class="form-group__container">
+                   <input name="phone" class="form-group__input" type="tel" required />
+                   <span class="form-group__input-error"></span>
+                </div>
+             </div>
+             <div class="form-group">
+                <label class="form-group__label" for="mail">Почта: </label>
+                <div class="form-group__container">
+                   <input name="mail" class="form-group__input" type="email" required />
+                   <span class="form-group__input-error"></span>
+                </div>
+             </div>
+              <div class="form-group">
+                 <label class="form-group__label" for="url">URL фото студента: </label>
+                 <div class="form-group__container">
+                    <input name="url" class="form-group__input" type="url" required />
+                    <span class="form-group__input-error"></span>
+                 </div>
+              </div>
+              <div class="form-group">
+                 <button class="my-form__submit" type="submit">Добавить</button>
+              </div>
+           </form>
+        </div>
+     </div>
+</body>
+</html>

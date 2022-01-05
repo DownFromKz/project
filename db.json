@@ -1,0 +1,148 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "secondName": "Egorova",
+      "firstName": "AnnA",
+      "patronymic": "Андреевна",
+      "city": "Уфа",
+      "university": "УГАТУ",
+      "course": "2",
+      "phone": "79993453433",
+      "mail": "ivanovama03@gmail.com",
+      "avatarUrl": "https://likeyou.io/wp-content/uploads/2019/02/Snimok-ekrana-2019-02-15-v-16.03.56.png"
+    },
+    {
+      "id": 3,
+      "secondName": "Кон",
+      "firstName": "Владимир",
+      "patronymic": "Андреевич",
+      "city": "Уфа",
+      "university": "УГАТУ",
+      "course": 2,
+      "phone": 79993453158,
+      "mail": "hfghfgh@gmail.com",
+      "avatarUrl": "img/vladimir.jpg"
+    },
+    {
+      "id": 4,
+      "secondName": "Волкова",
+      "firstName": "Анна",
+      "patronymic": "Андреевна",
+      "city": "Киров",
+      "university": "КГБ",
+      "course": 4,
+      "phone": 79993453456,
+      "mail": "kgb@gmail.com",
+      "avatarUrl": "img/anna.jpg"
+    },
+    {
+      "id": 5,
+      "secondName": "Ерёменко",
+      "firstName": "Алексаднр",
+      "patronymic": "Андреевич",
+      "city": "Неуфа",
+      "university": "НУГАТУ",
+      "course": 1,
+      "phone": 46993453433,
+      "mail": "yfa03@gmail.com",
+      "avatarUrl": "img/alex.jpg"
+    },
+    {
+      "id": 6,
+      "secondName": "Андреева",
+      "firstName": "Вероника",
+      "patronymic": "Андреевна",
+      "city": "Москва",
+      "university": "МГУ",
+      "course": 3,
+      "phone": 89993453433,
+      "mail": "killerBugs@gmail.com",
+      "avatarUrl": "img/nika.jpg"
+    },
+    {
+      "id": 7,
+      "secondName": "Гришина",
+      "firstName": "Дарья",
+      "patronymic": "Андреевна",
+      "city": "Уфа",
+      "university": "УГАТУ",
+      "course": 2,
+      "phone": 79993453458,
+      "mail": "grischina03@gmail.com",
+      "avatarUrl": "img/darya.jpg"
+    },
+    {
+      "id": 8,
+      "secondName": "Николаев",
+      "firstName": "Антон",
+      "patronymic": "Андреевич",
+      "city": "Воркута",
+      "university": "ВТУ",
+      "course": 1,
+      "phone": 70123453433,
+      "mail": "nik03@gmail.com",
+      "avatarUrl": "img/anton.jpg"
+    },
+    {
+      "id": 9,
+      "secondName": "Рассколов",
+      "firstName": "Святослав",
+      "patronymic": "Андреевич",
+      "city": "Киров",
+      "university": "ЮСБ",
+      "course": 5,
+      "phone": 78883453433,
+      "mail": "rask03@gmail.com",
+      "avatarUrl": "img/svyat.jpg"
+    },
+    {
+      "id": 10,
+      "secondName": "Красавина",
+      "firstName": "Алия",
+      "patronymic": "Андреевна",
+      "city": "Уфа",
+      "university": "УГАТУ",
+      "course": 2,
+      "phone": 79993453789,
+      "mail": "kras03@gmail.com",
+      "avatarUrl": "img/alia.jpg"
+    },
+    {
+      "secondName": "Ворогуев",
+      "firstName": "Egor",
+      "patronymic": "Стив",
+      "city": "Уфа",
+      "university": "АГША",
+      "course": "2",
+      "phone": "+7 999 345 93 78",
+      "mail": "dfgdfg@gmail.ru",
+      "avatarUrl": "https://likeyou.io/wp-content/uploads/2019/02/Snimok-ekrana-2019-02-15-v-16.03.56.png",
+      "id": 11
+    },
+    {
+      "secondName": "Ворогуев",
+      "firstName": "Мария",
+      "patronymic": "Андреевна",
+      "city": "Guandazan",
+      "university": "АГША",
+      "course": "4",
+      "phone": "79993453433",
+      "mail": "ivanovama03@gmail.com",
+      "avatarUrl": "https://likeyou.io/wp-content/uploads/2019/02/Snimok-ekrana-2019-02-15-v-16.03.56.png",
+      "id": 12
+    },
+    {
+      "secondName": "Чекинова",
+      "firstName": "Мария",
+      "patronymic": "Андреевна",
+      "city": "Уфа",
+      "university": "УГАТУ",
+      "course": "5",
+      "phone": "79993453433",
+      "mail": "ivanovama03@gmail.com",
+      "avatarUrl": "https://cdn.maximonline.ru/ec/5b/70/ec5b701b6dc90d27cbde89b6e19a0d07/728x728_1_848ca9ef388ee0fdc2c538677e5709a7@1024x1024_0xac120002_17992516771550233711.jpg",
+      "id": 13
+    }
+  ]
+}
