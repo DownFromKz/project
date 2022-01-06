@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/main.css">
     <script src="js/script.js" defer></script>
     <title>Document</title>
@@ -15,7 +14,7 @@
             <a href="#" class="header__icon"></a>
             <h1>TENSOR SCHOOL</h1>
             <h4>Мои одноклассники</h4>
-            <img src="img/add.png" class="add-button" alt="Добавить">
+            <img src="icons/add.png" class="add-button" alt="Добавить">
         </header>
         <section class="classmates">
             <template id='classmatesTemplate'>
@@ -33,6 +32,33 @@
                     </div>
                   </article>
             </template> 
+            <template>
+               <div class="card">
+                  <div class="info_student">
+                      <h1 class="full-name">ИВАНОВА Мария Андреевна</h1>
+                      <span class="city row-content">Уфа</span>
+                      <span class="education row-content">УГАТУ, 2 курс</span>
+                      <span class="phone row-content">+7 999 345 34 33</span> 
+                      <span class="mail row-content">ivanovama03@gmail.com</span>
+                  </div>
+                  <div class="wrapper">
+                      <img src="../img/maria.jpg" alt="Maria" class="photo-student">
+                      <ul class="communication">
+                          <li><a href="#" class="vk">
+                              <img src="../icons/VK.svg" alt="vk" class="com-icons">
+                          </a></li>
+                          <li><a href="#" class="facebook">
+                              <img src="../icons/FB.svg" alt="vk"class="com-icons">
+                          </a></li>
+                          <li><a href="#" class="whatsup" ></a>
+                              <img src="../icons/WA.svg" alt="vk"class="com-icons"></li>
+                          <li><a href="#" class="telegram">
+                              <img src="../icons/Tlg.svg" alt="vk"class="com-icons">
+                          </a></li>
+                      </ul>
+                  </div>
+              </div>
+            </template>
         </section>
     </div>
     <div id="studentPopup" class="overlay">

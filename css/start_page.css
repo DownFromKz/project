@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Medium'), url('../fonts/sf-ui-display-medium-58646be638f96.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF UI Display Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Bold'), url('../fonts/sf-ui-display-bold-58646a511e3d9.woff') format('woff');
+}
+
+body{
+    
+}
+
+@font-face {
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Medium'), url('../fonts/sf-ui-display-medium-58646be638f96.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF UI Display Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Bold'), url('../fonts/sf-ui-display-bold-58646a511e3d9.woff') format('woff');
+}
+
+body,h1{
+    margin: 0;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin: 203px 0 16px 0;
+    width: 74px;
+    height: 74px;
+}
+.company{
+    font-family: 'SF UI Display Bold';
+    font-size: 36px;
+    margin-bottom: 77px;
+}
+.worker-pic{
+    margin-bottom: 74px;
+}
+.info{
+    width: 520px;
+    text-align: center;
+    font-family: 'SF UI Display Medium';
+    font-size: 18px;
+}
+
+@media screen and (max-width:400px){
+    .container{
+        width: 375px;
+    }
+    .logo{
+        margin: 112px 0 16px 0;
+    }
+    .company{
+        font-size: 24px;
+    }
+    .worker-pic{
+        width: 209px;
+        height: 178px;
+    }
+    .info{
+        width: 295px;
+        font-size: 14px;
+    }
+}

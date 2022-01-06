@@ -39,7 +39,7 @@ body{
 .header__icon{
     width: 41px;
     height: 41px;
-    background: url("../img/logo.png") 100% 100% no-repeat;
+    background: url("../icons/logo.png") 100% 100% no-repeat;
     background-size: cover;
     margin-right: 12px;
 }
@@ -86,7 +86,7 @@ body{
     right: 19px;
     top: 10px;
     position: absolute;
-    background-image: url(../img/delete.svg);
+    background-image: url(../icons/delete.svg);
     height: 24px;
     width: 24px;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ body{
     right: 19px;
     top: 50px;
     position: absolute;
-    background-image: url(../img/edit.png);
+    background-image: url(../icons/edit.png);
     height: 24px;
     width: 24px;
     background-repeat: no-repeat;
@@ -143,7 +143,7 @@ body{
     .header__icon{
         width: 16px;
         height: 16px;
-        background: url("../img/left_arrow.svg") 100% 100% no-repeat;
+        background: url("../icons/left_arrow.svg") 100% 100% no-repeat;
         background-size: cover;
         margin-right: 0px;
         margin-left: 20px;
@@ -172,9 +172,17 @@ body{
     .button_delete{
         display: block;
 
-        background-image: url(../img/delete_mobile.svg);
-        height: 24px;
-        width: 24px;
+        background-image: url(../icons/delete_mobile.svg);
+        height: 30px;
+        width: 30px;
+        background-repeat: no-repeat;
+        background-size: 14px 14px;
+    }
+    .button_edit{
+        display: block;
+        background-image: url(../icons/edit.png);
+        height: 30px;
+        width: 30px;
         background-repeat: no-repeat;
         background-size: 14px 14px;
     }
@@ -197,7 +205,7 @@ body{
  }
  
  .popup {
-    margin: 70px auto;
+    margin: 5px auto;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
@@ -285,3 +293,103 @@ body{
     font-size: 20px;
     margin: auto;
  }
+
+ .card{
+    font-family: 'SF UI Display Medium';
+    font-size: 12px;
+    display: flex;
+    width: 310px;
+    height: 140px;
+    background-color: white;
+    border: solid 2px black;
+    padding: 10px;
+}
+
+.row-content{
+    color: #7A91B5;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.full-name{
+    margin: 0 0 13px 0;
+    font-family: 'SF UI Display Bold';
+    font-size: 15px;
+}
+
+.info_student{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.city::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 14px;
+    background-image: url(../icons/location.svg);
+    background-size: 12px 14px;
+    
+}
+
+.education::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    background-image: url(../icons/education.svg);
+    background-size: 13px 13px;
+    
+}
+
+.phone::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    background-image: url(../icons/phone.svg);
+    background-size: 12px 12px;
+    
+}
+
+.mail::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    background-image: url(../icons/mail.svg);
+    background-size: 13px 13px;
+}
+
+.photo-student{
+    width: 104px;
+    height: 104px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.communication{
+    display: flex;
+    margin: 9px 0 0 0;
+    list-style-type: none;
+    padding: 0;
+}
+.communication a{
+    text-decoration: none;
+}
+.com-icons{
+    height: 13px;
+    width: 13px;
+    padding-right: 13px;
+}
